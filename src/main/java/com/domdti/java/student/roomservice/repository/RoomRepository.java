@@ -1,0 +1,9 @@
+package com.domdti.java.student.roomservice.repository;
+
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
+
+import com.domdti.java.student.roomservice.domain.Room;
+
+public interface RoomRepository extends ReactiveMongoRepository<Room , String> {
+
+}
